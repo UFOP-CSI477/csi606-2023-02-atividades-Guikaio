@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Guilherme Kaio Parreira Caldeira 
+- Matrícula: 19.2.8098
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 2023/2
+- Link para o seu GitHub: [Guikaio](https://github.com/Guikaio)
 
 ## [Projeto final:](./Projeto/README.md)
 
