@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Index.css">
+
+    <title>Informações De Usuários (GitHub)</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Informações De Usuários (GitHub)</h1>
+
+        <div class="input-container">
+            <label for="github_name">Digite o nome de usuário do Github que você deseja procurar:</label>
+            <input type="text" id="github_name" name="github_name" class="input-field">
+        </div>
+
+        <div>
+            <p id="error-message" class="error-message" hidden>Usuário não encontrado. Por favor, digite o ID de um usuário válido.</p>
+        </div>
+
+        <div class="div_button">
+            <button type="button" onclick="insertRow()" class="submit-button">Buscar</button>
+        </div>
+
+        <div>
+            <table id="myTable" class="myTable">
+                <thead>
+                    <tr>
+                        <th>Login</th>
+                        <th>Email</th>
+                        <th>Repositório Público</th>
+                        <th>Seguidores</th>
+                        <th>Seguindo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--  As Linhas serão adicionadas dinamicamente usando JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

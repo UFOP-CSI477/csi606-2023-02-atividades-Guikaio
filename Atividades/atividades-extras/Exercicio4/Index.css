@@ -1,0 +1,89 @@
+/* Defini as configurações básicas do corpo do documento, a fonte e o plano de fundo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aqui defini as configurações da área principal do conteúdo, largura máxima, margens, preenchimento, cor de fundo, borda e sombra */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aqui estilizei o cabeçalho centralizando o texto e definindo a cor */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Configurações para a área do formulário, como margem inferior */
+.input-container {
+    margin-bottom: 20px;
+}
+
+/* Defini a estilização para rótulos,  exibição em bloco, margem inferior e cor */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Configurações para o campo de entrada, largura total, preenchimento, borda e borda arredondada */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilizando a mensagem de erro,  cor e margem */
+.error-message {
+    color: #e74c3c;
+    margin: 5px 0;
+}
+
+/* Configurações para o contêiner dos botões, como alinhamento central */
+.div_button {
+    text-align: center;
+}
+
+/* Estilizando o botão de envio, definindo preenchimento, cor de fundo, cor do texto, borda, borda arredondada e cursor ao pairar */
+.submit-button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efeito ao passa o mouse sobre o botão de envio */
+.submit-button:hover {
+    background-color: purple;
+}
+
+/* Configurações para a tabela, largura total, margem superior e borda colapsada */
+.myTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Estilizando as células de cabeçalho e dados da tabela, como borda, preenchimento e alinhamento do texto à esquerda */
+.myTable th, .myTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilizando as células de cabeçalho com cor de fundo e cor de texto */
+.myTable th {
+    background-color: purple;
+    color: #fff;
+}
