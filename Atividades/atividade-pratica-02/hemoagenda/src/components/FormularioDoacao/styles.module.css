@@ -1,0 +1,50 @@
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    gap: 1rem;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 0.75rem;
+  }
+  
+  .saveButton {
+    background-color: #34d399;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .cancelButton {
+    background-color: #8e8e8e;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+  }
+
+  .submitButton {
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  

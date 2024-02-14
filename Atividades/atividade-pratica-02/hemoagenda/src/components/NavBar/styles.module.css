@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav{
+    background-color: #BF3131;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    font-family: "Montserrat", system-ui;
+    font-style: normal;
+    text-decoration: none;
+    color: #F3EDC8;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.linksBasicosContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.linksBasicos{
+    font-weight: 400;
+    font-size: 20px;
+}

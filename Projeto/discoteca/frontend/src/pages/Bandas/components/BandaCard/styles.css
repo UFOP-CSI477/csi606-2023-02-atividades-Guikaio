@@ -1,0 +1,36 @@
+.banda-card {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .banda-info {
+    margin-bottom: 10px;
+  }
+  
+  .banda-buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .excluir-btn {
+    background-color: #ff6b6b;
+    color: #fff;
+  }
+  
+  .editar-btn {
+    background-color: #6b9fff;
+    color: #fff;
+  }
+  
+
+  

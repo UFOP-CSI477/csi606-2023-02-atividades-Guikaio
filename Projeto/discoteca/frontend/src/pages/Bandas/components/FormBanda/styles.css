@@ -1,0 +1,38 @@
+.form-banda {
+  background: #f0f0f0;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  input{ width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #333;}
+}
+
+
+
+.cancelar-btn,
+.salvar-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancelar-btn {
+  border: #333 solid;
+}
+
+.salvar-btn {
+  background-color: #6b9fff;
+  color: #fff;
+}

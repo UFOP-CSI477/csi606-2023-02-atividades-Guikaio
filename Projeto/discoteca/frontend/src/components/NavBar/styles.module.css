@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rock+Salt&display=swap');
+
+nav{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    font-family: "Metal Mania", system-ui;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.linksBasicosContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.linksBasicos{
+    font-weight: 400;
+    font-size: 30px;
+}

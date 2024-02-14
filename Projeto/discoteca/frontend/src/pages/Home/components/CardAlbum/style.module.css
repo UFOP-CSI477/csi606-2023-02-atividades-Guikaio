@@ -1,0 +1,69 @@
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    
+    h2 {
+      font-size: 1.8em;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    span {
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    .buttonsContainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      color: #fff;
+      width: 100px;
+
+      &.deleta {
+        background-color: #e74c3c; 
+      }
+
+      &.edita {
+        background-color: #27ae60;
+      }
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }

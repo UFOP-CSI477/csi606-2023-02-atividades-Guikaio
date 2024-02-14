@@ -1,0 +1,57 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    width: 100vw;
+  }
+  
+ 
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+  
+ 
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+  .locationInfo {
+    margin-top: 1rem;
+  }
+  
+ 
+  .locationInfo p {
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+  .editButton,
+  .deleteButton {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .editButton{
+    background-color: #3b82f6;
+  }
+
+  .deleteButton {
+    margin-left: 0.5rem;
+    background-color: #dc2626;
+  }
+
+  
+ 
+
+  

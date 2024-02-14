@@ -1,29 +1,68 @@
 # **CSI606-2021-02 - Remoto - Trabalho Final - Resultados**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## _Aluna(o): Guilherme Kaio Parreria Caldeira
 
---------------
-
-<!-- Este documento tem como objetivo apresentar o projeto desenvolvido, considerando o que foi definido na proposta e o produto final. -->
+---
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+Foi concebido um sistema web para gerenciamento de bandas e álbuns, incorporando funcionalidades de CRUD (Create, Read, Update, Delete) para ambas as entidades. O sistema permite a criação, visualização, atualização e exclusão de informações relacionadas às bandas e seus respectivos álbuns. Adicionalmente, é possível realizar o upload de imagens associadas aos álbuns e vincular cada álbum a uma banda específica, oferecendo uma abordagem abrangente para o gerenciamento de dados musicais.
 
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
-  
+
+- CRUD de Bandas
+- CRUD de Álbuns
+
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+
+- Upload das imagens para a nuvem e não localmente em um direitorio na API
+- Responsividade
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+
+Nada a declarar
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+
+Minha limitada experiência no desenvolvimento web, utilizando React (frontend) e Node.js (backend), influenciou a opção por um sistema mais simples. A complexidade da integração entre frontend e backend motivou a concentração nas funcionalidades essenciais de CRUD para garantir uma implementação mais acessível. Apesar dos desafios, essa jornada proporcionou aprendizados valiosos no desenvolvimento web.
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+
+## Instruções para iniciar o backend
+
+1. **Instalar o node na versão mais recente::**
+
+   - [Download Node.js](https://nodejs.org/en)
+
+2. **Iniciar um terminal na raiz do projeto com o comando:**
+
+   ```bash
+   npm install
+   ```
+
+   depois
+
+   ```bash
+   npm start
+   ```
+
+## Instruções para iniciar o frontend
+
+1. **Instalar o node na versão mais recente::**
+   - [Download Node.js](https://nodejs.org/en)
+
+2. **Iniciar um terminal na raiz do projeto com o comando:**
+
+   ```bash
+   npm install
+   ```
+
+   depois
+
+   ```bash
+   npm start
+   ```
 
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+
+Nada a declarar

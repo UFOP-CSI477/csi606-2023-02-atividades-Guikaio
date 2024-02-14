@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem; 
+    width: 100vw;
+  }
+  
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+  
+  .leftContainer > div {
+    margin-right: 2rem;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .paragraph {
+    margin-bottom: 0.5rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none
+  }
+  
+  .editButton {
+    background-color: #3b82f6;
+    color: #ffffff;
+  }
+  
+  .deleteButton {
+    background-color: #dc2626;
+    color: #ffffff;
+    margin-left: 0.5rem;
+  }
+  

@@ -1,0 +1,22 @@
+.inputTextContainer {
+    width: 50%;
+  }
+  
+  .inputTextLabel {
+    display: block;
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-bottom: 0.25rem; 
+  }
+  
+  .inputText {
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  
