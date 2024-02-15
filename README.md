@@ -10,6 +10,4 @@
 - Link para o seu GitHub: [Guikaio](https://github.com/Guikaio)
 
 ## [Projeto final:](./Projeto/README.md)
-
-Apresente uma breve descrição do seu projeto.
-teste
+Foi concebido um sistema web para gerenciamento de bandas e álbuns, incorporando funcionalidades de CRUD (Create, Read, Update, Delete) para ambas as entidades. O sistema permite a criação, visualização, atualização e exclusão de informações relacionadas às bandas e seus respectivos álbuns. Adicionalmente, é possível realizar o upload de imagens associadas aos álbuns e vincular cada álbum a uma banda específica, oferecendo uma abordagem abrangente para o gerenciamento de dados musicais
